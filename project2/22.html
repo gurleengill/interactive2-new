@@ -28,13 +28,21 @@
 
 
 			}
+			@keyframes example {
+    	from {background-color: red;}
+    	to {background-color: yellow;}
+			}
+
 			h4 {
 				letter-spacing:.25;
 				line-height: 1em;
 				float: right;
-				
-
-
+				 width: 100px;
+			    height: 50px;
+			    background-color: red;
+			    animation-name: example;
+			    animation-duration: 4s;
+			    padding: 5px;
 
 			}
 			h6 {
@@ -65,11 +73,7 @@
 
 
 			}
-			.bounce {
-				animation-name: bounce;
-  				animation-duration:infinite;
-
-			}
+		
 		
 			.prev {
 			color: #F7ADC1;
@@ -101,11 +105,11 @@
 	<body>
 		
 		<div class="next"> <a href="23.html">Next</a> </div>
-		 <h4 class="bounce">LADY LOVE</h4>
+		 <h4 class="example">LADY LOVE</h4>
 		
 		
 		
-	<p class="bounce">She is standing on my lids And her hair is in mine
+	<p >She is standing on my lids And her hair is in mine
 
 	She is the form of my hands
 	And the color of my eyes,</p>
