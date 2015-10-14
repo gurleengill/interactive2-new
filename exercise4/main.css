@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+.canvas.red {
+	background: #F04722;
+}
+.object {
+	position: absolute;
+}
+/*sphere*/
+.sphere {
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	left: 300px;
+	bottom: 120px;
+
+}
+.pumpkin {
+	background-color: orange;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	bottom: 80px;
+	right:140px;
+}
+.vase-container {
+
+	width: 100px;
+	height: 325px;
+	bottom: 90px;
+	left: 195px;
+}
+.vase {
+	width: 100px;
+	height: 250px;
+	background: white;
+	opacity: 0.5;
+	bottom: 0px;
+
+}
+.vase-bottom {
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	bottom: -12px;
+	background: white;
+}
+.vase-top {
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	top: -12px;
+	background: white;
+
+}
+.flower {
+	left:20px;
+}
+.stem {
+	background-color: green;
+	width: 10px;
+	height: 328px;
+
+}
+.petal {
+	background-color:#9a30f4;
+	width: 50px;
+	height: 20px;
+	border-radius: 50%;
+	top:-10px;
+
+}
+.flower.one{
+	left:20px;
+}
+.flower.two{
+	left:40px;
+}
+.flower.three{
+	left:60px;
+}
+.flower.four{
+	left:80px;
+}
+.flower.five{
+	left:5px;
+}
+
+
+
+
