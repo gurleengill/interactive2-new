@@ -33,7 +33,7 @@ body {
 	background-color: orange;
 	width: 150px;
 	height: 150px;
-	border-radius: 50%;
+	border-radius: 40%;
 	bottom: 80px;
 	right:140px;
 }
@@ -99,7 +99,62 @@ body {
 .flower.five{
 	left:5px;
 }
+/*canvas*/
+.canvas.aqua {
+	background: #3DECE1;
+}
+.canvas.aqua .sphere {
+	-webkit-box-shadow: -66px 7px 36px 4px rgba(240,240,240,0.66);
+-moz-box-shadow: -66px 7px 36px 4px rgba(240,240,240,0.66);
+box-shadow: -66px 7px 36px 4px rgba(240,240,240,0.66);
 
+}
+.canvas.aqua .pumpkin {
+	width: 150px;
+	height: 150px;
+	border-radius: 40%;
+	bottom: 110px;
+	left:150px;
 
+}
+.banana {
+	background: yellow;
+	width: 180px;
+	height: 25px;
+	border-radius: 30%;
+	bottom: 115px;
+	left:110px;
+}
+.banana.two {
+	 -ms-transform: rotate(165deg); /* IE 9 */
+    -webkit-transform: rotate(165deg); /* Chrome, Safari, Opera */
+    transform: rotate(165deg);
+    left: 130px;
+    bottom: 125px;
+}
+.banana.three {
+	 -ms-transform: rotate(19deg); /* IE 9 */
+    -webkit-transform: rotate(19deg); /* Chrome, Safari, Opera */
+    transform: rotate(19deg);
 
+}
+.rect {
+	background: black;
+	width: 100px;
+	height: 15px;
+	right: 321px;
+	bottom: 89px;
+	 -webkit-transform: rotate(189deg); /* Chrome, Safari, Opera */
+    transform: rotate(189deg);
+}
+.ellipse {
+    width: 79px;
+    height: 32px;
+    background: black;
+    border-radius: 50%;
+    right: 248px;
+    bottom: 68px;
+    -webkit-transform: rotate(189deg);
+    transform: rotate(189deg);
+}
 
