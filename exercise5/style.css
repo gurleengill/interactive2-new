@@ -9,6 +9,7 @@ h1 {
   body { background: url('./images/2.jpg'); }
   h1 {
   	font-size: 20px;
+  	
   }
 }
 
@@ -23,6 +24,7 @@ h1 {
   body { background: url('./images/4.png'); }
   h1 {
   	font-size: 60px;
+  	
   }
 }
 
@@ -37,6 +39,7 @@ h1 {
   body { background: url('./images/6.jpg'); }
   h1 {
   	font-size: 100px;
+  	
   }
 }
 
