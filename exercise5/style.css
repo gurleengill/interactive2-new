@@ -1,0 +1,39 @@
+body { background: url( './images/1.jpg'); }
+
+@media screen and (max-width: 1024px) {
+  body { background: url('./images/2.jpg'); }
+}
+
+@media screen and (max-width: 768px) {
+  body { background: url('./images/3.jpg'); }
+}
+
+@media screen and (max-width: 600px) {
+  body { background: url('./images/4.png'); }
+}
+
+@media screen and (max-width: 480px) {
+  body { background: url('./images/5.jpg'); }
+}
+
+@media screen and (max-width: 320px) {
+  body { background: url('./images/6.jpg'); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
