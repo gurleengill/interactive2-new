@@ -1,4 +1,6 @@
-
+body {
+    margin: 75px;
+}
 	.letter.h {
     width: 144px;
 }
