@@ -1,0 +1,41 @@
+
+	.letter.h {
+    width: 144px;
+}
+.letter {
+    height: 200px;
+    width: 135px;
+    background: yellow;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+.h .v1,
+.n .v1,
+.p .v1 {
+	position: absolute;
+    width: 25px;
+    left: 0;
+    height: 140%;
+    bottom: 0px;
+    background: black;
+}
+.h .v2,
+.n .v2 {
+	position: absolute;
+    width: 25px;
+    right: 0;
+    top: 0;
+    height: 150%;
+    background: black;
+}
+
+
+.h .h1 {
+	position: absolute;
+    top: 94px;
+    height: 25px;
+    width: 100%;
+    background: black;
+    display: block;
+}
