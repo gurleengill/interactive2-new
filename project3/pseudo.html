@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo</title>
+	<style>
+		.letter {
+			height: 125px;
+			display: inline-block;
+			background: yellow;
+			width: 105px;
+		}
+		.A {
+			position: relative;
+			left: 30px;
+			width: 60px;
+			height: 91px;
+			border-bottom: solid 14px #000;
+		}
+		.A:before{
+			content: '';
+			position: absolute;
+			width: 16px;
+			height: 125px;
+			background: black;
+			left: 0;
+			top:12.5px;
+			transform:skew(-19deg,0);
+		}
+		.A:after{
+			content: '';
+			position: absolute;
+			width: 16px;
+			height: 125px;
+			background: black;
+			left: 45px;
+			top:12.5px;
+			transform:skew(19deg,0);
+		}
+
+	</style>
+
+	</head>
+<body>
+	<div class="letter A">
+		<div class="A">
+			
+
+		</div>
+	</div>
+</body>
+</html>

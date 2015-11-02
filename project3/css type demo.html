@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo</title>
+	<style>
+
+		.letter {
+			height: 125px;
+			display: inline-block;
+			background: yellow;
+		}
+		.A {
+			width: 105px;
+			position: relative;
+		}
+		.A .left {
+			width:16px;
+			height: 125px;
+			/*border: 1px solid black;*/
+			background: black;
+			position: absolute;
+			left:22px;
+			top: 0;
+			transform:skew(-19deg,0);
+
+		}
+		.A .right {
+			width:16px;
+			height: 125px;
+			background: black;
+			position: absolute;
+			right:22px;
+			top: 0;
+			transform:skew(19deg,0);
+
+		}
+		.A .middle {
+			height: 14px;
+			width: 60px;
+			background: black;
+			position: absolute;
+			top: 78px;
+			left: 18px;
+		}
+
+	</style>
+
+	</head>
+<body>
+	<div class="letter A">
+		<div class="A">
+			<div class="left"></div>
+			<div class="right"></div>
+			<div class="middle"></div>
+
+		</div>
+	</div>
+</body>
+</html>
