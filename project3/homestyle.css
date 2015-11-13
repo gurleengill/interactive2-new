@@ -1,7 +1,10 @@
 body {
-    margin: 75px;
+	background-color: black;
 }
-    
+/*Letters*/
+.letter-definition {
+    display: none;
+}
 .letter {
     height: 200px;
     width: 135px;
@@ -10,6 +13,8 @@ body {
     margin-left: 15px;
     position: relative;
     transform: rotate(-20deg);
+    color: white;
+
 }
 
 .a, 
@@ -23,7 +28,7 @@ body {
     width: 63px;
     height: 97px;
     border-width: 5px;
-    border-color: #000000;
+    border-color: white;
     border-style: solid;
     border-radius: 48% /47%;
 }
@@ -89,7 +94,9 @@ body {
      margin-left: 349px;
 }
 .letter.e {
-    margin-left: 449px;
+   margin-left: 449px;
+   bottom: 196px;
+   left: 214px;
 }
 .downlongright {
    position: absolute;
@@ -107,7 +114,7 @@ body {
     content:'';
     top:2px;
     left:49px;
-    background-color:#ffffff;
+    background-color:black;
     width:90px;
     height:90px;
 }
@@ -117,7 +124,7 @@ body {
     position: absolute;
     top: 22px;
     left: -1px;
-    background: black;
+    background: white;
     transform: rotate(-16deg);
 
 }
@@ -171,7 +178,8 @@ body {
 
 }
 .letter.h {
-    margin-left: 149px;
+   margin-left: 149px;
+   bottom: 40px;
 }
 .letter.i {
     margin-left: 100px;
@@ -197,7 +205,7 @@ body {
     left: -10px;
     height: 201%;
     bottom: 7px;
-    background: black;
+    background: white;
     transform: rotate(-5deg);
 }
 .h:before
@@ -207,7 +215,7 @@ body {
     content: '';
     top: 65px;
     left: 5px;
-    background-color: #FFFFFF;
+    background-color: black;
     width: 55px;
     height: 90px;
 }
@@ -296,10 +304,10 @@ body {
 .m {
     position: absolute;
     width: 5px;
-    left: -663px;
-    height: 33%;
-    bottom: 105px;
-    background: black;
+    left: -268px;
+    height: 22%;
+    bottom: 118px;
+    background: white;
     transform: rotate(-20deg);
 }
 .oval {
@@ -307,7 +315,7 @@ body {
     width: 63px;
     height: 97px;
     border-width: 5px;
-    border-color: #000000;
+    border-color: white;
     border-style: solid;
     border-radius: 48% /47%;
     top: 25px;
@@ -317,7 +325,7 @@ body {
     width: 63px;
     height: 97px;
     border-width: 5px;
-    border-color: #000000;
+    border-color: white;
     border-style: solid;
     border-radius: 48% /47%;
     top: 17px;
@@ -330,7 +338,7 @@ body {
     content: '';
     top: 69px;
     left: 6px;
-    background-color: #FFFFFF;
+    background-color: black;
     width: 55px;
     height: 90px;
 }
@@ -340,7 +348,7 @@ body {
     content: '';
     top: 40px;
     left: -4px;
-    background-color: #FFFFFF;
+    background-color: black;
     width: 57px;
     height: 90px;
 }
@@ -379,11 +387,11 @@ body {
     width: 63px;
     height: 97px;
     border-width: 5px;
-    border-color: #000000;
+    border-color: white;
     border-style: solid;
     border-radius: 48% /47%;
-    top: 119px;
-    left: 279px;
+    top: 328px;
+    left: 240px;
 }
 .p {
     position: absolute;
@@ -1126,35 +1134,40 @@ body {
     top: 124px;
     float: left;
     padding-bottom: 50px;
-    margin-top: 200px;
 }
-/*#boxs {
-    height: 280px;
-    width: 1000px;
-    display: inline-block;
-    background-color: #FFFFFC;
-    left: 8px;
-    position: relative;
-    top: 124px;
-    float: left;
-    padding-bottom: 50px;
+/*a {
+	height: 68px;
+    width: 21px;
+    background-color: white;
+    transform: rotate(-43deg);
+    position: fixed;
+    display: block;
+    left: 271px;
+    top: -16px;
+    margin-left: 45px;
+}*/
+/*a:hover {
+    height: 130px;
+    width: 21px;
+    background-color: white;
+    transform: rotate(-43deg);
+    position: absolute;   
 }*/
 .bar2 {
-    height: 116px;
+	height: 116px;
     width: 21px;
-    background-color: black;
+    background-color: white;
     transform: rotate(-43deg);
     position: fixed;
     left: 357px;
     top: -30px;
 }
 .bar3 {
-    height: 125px;
+	height: 125px;
     width: 21px;
-    background-color: black;
+    background-color: white;
     transform: rotate(-43deg);
     position: fixed;
     left: 391px;
     top: -47px;
 }
-
