@@ -1,7 +1,20 @@
+html, body {
+    height: 100%;
+
+}
+#wordcontainer {
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
  body {
  	margin: 0 auto;
  	font-family: Helvetica;
  }
+
  a {
  	text-decoration: none;
  	font-family: Helvetica;
@@ -17,7 +30,7 @@
  	width:850px;
  	margin: 0 auto;
  	background:#F9E5E5;
- 	height: 1178px;
+    padding: 32px 0;
  }
  .title {
  	color: #FF7B7B;
@@ -28,20 +41,12 @@
  	color: #FF7B7B;
  	font-size: 23px;
  	font-family: Helvetica;
- 	margin-top: 16px;
+ 	margin-top: 36px;
+ }
+ .nav-container {
+    text-align: center;
  }
  .nav {
- 	width: 175px;
-    height: 28px;
-    background: #FF7B7B;
-    margin-left: 140px;
-    margin-top: 28px;
-    display: inline-block;
-    font-size: 14px;
-    color: white;
-    padding-top: 8px;
- }
- .nav2 {
  	width: 175px;
     height: 28px;
     background: #FF7B7B;
@@ -52,6 +57,17 @@
     color: white;
     padding-top: 8px;
  }
+ /*.nav2 {
+ 	width: 175px;
+    height: 28px;
+    background: #FF7B7B;
+    margin-left: 10px;
+    margin-top: 28px;
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    padding-top: 8px;
+ }*/
  #wod {
  	width: 710px;
     height: 137px;
@@ -59,18 +75,27 @@
     margin-left: 62px;
     margin-top: 28px;
     padding-top: 56px;
-        background-color: white;
+    background-color: white;
+    text-align: center;
  }
  .tw {
  	color: black;
  	font-size: 28px;
  	font-family: Helvetica;
+    text-align: center;
  }
  .wod {
  	color: #FF7B7B;
  	font-size: 36px;
  	font-family: Helvetica;
+    text-align: center;
+    padding-bottom: 66px;
  }
+ .element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
  p {
  	margin: 0 auto;
  	font-size: 16px;
@@ -83,12 +108,9 @@
     line-height: 1.2em;
  }
  .p1 {
- 	width: 532px;
-    height: 500px;
     background-color: #f9e5e5;
-    margin-left: 171px;
-    margin-top: 16px;
-
+    max-width: 530px;
+    margin: 16px auto;
  }
  .archbox {
  	width: 532px;
@@ -99,18 +121,12 @@
 /*SCROLLBAR-1*/
 .scrollbar
 {
-	margin-left: 91px;
-    float: left;
     height: 239px;
     width: 356px;
     background: #FFFFFF;
     overflow-y: scroll;
-    margin-bottom: 25px;
-    margin-top: 16px;
-    padding-top: 10px;
-    padding-left: 10px;
     line-height: 1.4em;
-
+    margin: 24px auto;
 }
 
 .force-overflow
@@ -143,16 +159,15 @@
 /*SCROLLBAR-TWO!!!*/
 .scrollbar2
 {
-	margin-left: 194px;
-    float: left;
-    height: 400px;
+	margin-left: 220px;
+    height: 470px;
     width: 456px;
     background: #FFFFFF;
     overflow-y: scroll;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;
     margin-top: 16px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 10px;*/
     line-height: 1.4em;
 
 }
@@ -184,6 +199,115 @@
 {
 	background-color: #ff7b7b;
 }
+/*screen widths*/
 
+@media screen and (max-width: 850px) {
+
+  #container {
+    width: 100%;
+  }
+
+  #wod {
+    width: 84%;
+    margin-left: 60px;
+    margin-right: 30px;
+    text-align: center;
+   }
+}
+
+@media screen and (max-width: 635px) {
+
+  .nav {
+    display: block;
+    margin: 28px auto;
+  }
+  #wod {
+    width:80%;
+    margin-left: 60px;
+    margin-right: 30px;
+    text-align: center;
+  }
+  .p1 {
+    margin-right: 14px;
+  }
+  .scrollbar {
+    width: 70%;
+    text-align: center;
+    margin-left: 75px;
+    
+  }
+  .scrollbar2 {
+    width: 50%;
+    text-align: center;
+    margin-left: 155px;
+  }
+
+}
+@media screen and (max-width: 480px) {
+
+  #container {
+    width: 100%;
+   
+  }
+  /*.p1 {
+    width: 46%;
+    text-align: center;
+    margin-left: 100px;
+  }*/
+
+  #wod {
+    width: 86%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .scrollbar2 {
+    width: 50%;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .scrollbar {
+    width: 70%;
+    text-align: center;
+    margin-left: 35px;
+    
+  }
+  a {
+    width: 50%;
+
+  }
+
+}
+
+/*animation*/
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
 
 
