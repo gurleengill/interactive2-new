@@ -1,3 +1,7 @@
+img {
+  max-width: 90%;
+
+}
 html, body {
     height: 100%;
 
@@ -57,18 +61,9 @@ html, body {
     color: white;
     padding-top: 8px;
  }
- /*.nav2 {
- 	width: 175px;
-    height: 28px;
-    background: #FF7B7B;
-    margin-left: 10px;
-    margin-top: 28px;
-    display: inline-block;
-    font-size: 14px;
-    color: white;
-    padding-top: 8px;
- }*/
+
  #wod {
+  display: block;
  	width: 710px;
     height: 137px;
     border: 2px solid #FF7B7B;
@@ -90,6 +85,7 @@ html, body {
  	font-family: Helvetica;
     text-align: center;
     padding-bottom: 66px;
+    font-weight: bold;
  }
  .element {
   position: relative;
@@ -116,6 +112,10 @@ html, body {
  	width: 532px;
     height: 410px;
     background-color: gray;
+ }
+ .margin {
+  margin-left: 195px;
+  margin-top: 21px;
  }
 
 /*SCROLLBAR-1*/
@@ -199,6 +199,27 @@ html, body {
 {
 	background-color: #ff7b7b;
 }
+
+a.whole-page {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.img-cont {
+  max-width: 545px;
+  height: 500px;
+  margin: 0 auto;
+}
+.large-word {
+  font-size:65px;
+}
+.margin-o {
+    margin-left: 333px;
+  }
+
 /*screen widths*/
 
 @media screen and (max-width: 850px) {
@@ -213,6 +234,31 @@ html, body {
     margin-right: 30px;
     text-align: center;
    }
+}
+@media screen and (max-width: 745px) {
+
+  #container {
+    width: 100%;
+  }
+
+  #wod {
+    width: 84%;
+    margin-left: 60px;
+    margin-right: 30px;
+    text-align: center;
+   }
+   .scrollbar2 {
+    width: 50%;
+    text-align: center;
+    margin-left: 200px;
+  }
+
+}
+
+@media screen and (max-width: 670px) {
+  .large-word {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width: 635px) {
@@ -241,7 +287,9 @@ html, body {
     text-align: center;
     margin-left: 155px;
   }
-
+.margin-o {
+    margin-left: 230px;
+  }
 }
 @media screen and (max-width: 480px) {
 
@@ -249,12 +297,6 @@ html, body {
     width: 100%;
    
   }
-  /*.p1 {
-    width: 46%;
-    text-align: center;
-    margin-left: 100px;
-  }*/
-
   #wod {
     width: 86%;
     margin-left: 30px;
@@ -268,46 +310,31 @@ html, body {
   .scrollbar {
     width: 70%;
     text-align: center;
-    margin-left: 35px;
+    margin-left: 88px;
     
   }
-  a {
-    width: 50%;
-
+  .wordcontainer {
+    width: 40%; 
   }
-
+  .margin {
+    margin-left: 150px;
+}
+.margin-o {
+    margin-left: 160px;
+}
+@media screen and (max-width: 400px) {
+  .margin {
+    margin-left: 130px;
+  }
+  .margin-o {
+    margin-left: 130px;
+  }
+  .scrollbar {
+    width: 70%;
+    text-align: center;
+    margin-left: 60px;
 }
 
-/*animation*/
-.slideInLeft {
-  -webkit-animation-name: slideInLeft;
-  animation-name: slideInLeft;
-}
 
-@-webkit-keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
 
 
