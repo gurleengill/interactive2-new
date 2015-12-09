@@ -219,6 +219,9 @@ a.whole-page {
 .margin-o {
     margin-left: 333px;
   }
+  .margin-n {
+    margin-left: 378px;
+  }
 
 /*screen widths*/
 
@@ -234,6 +237,9 @@ a.whole-page {
     margin-right: 30px;
     text-align: center;
    }
+   .margin-o {
+    margin-left: 358px;
+  }
 }
 @media screen and (max-width: 745px) {
 
@@ -253,7 +259,7 @@ a.whole-page {
     margin-left: 200px;
   }
   .margin-o {
-    margin-left: 358px;
+    margin-left: 308px;
   }
 
 }
@@ -261,6 +267,9 @@ a.whole-page {
 @media screen and (max-width: 670px) {
   .large-word {
     font-size: 36px;
+  }
+  .margin-o {
+    margin-left: 255px;
   }
 }
 
@@ -308,7 +317,7 @@ a.whole-page {
   .scrollbar2 {
     width: 50%;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 132px;
   }
   .scrollbar {
     width: 70%;
@@ -337,6 +346,11 @@ a.whole-page {
     text-align: center;
     margin-left: 60px;
 }
+.scrollbar2 {
+    width: 50%;
+    text-align: center;
+    margin-left: 108px;
+  }
 
 
 
