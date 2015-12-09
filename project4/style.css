@@ -224,7 +224,11 @@ a.whole-page {
   }
 
 /*screen widths*/
-
+@media screen and (max-width: 1220px) {
+   .margin-o {
+    margin-left: 354px;
+  }
+}
 @media screen and (max-width: 850px) {
 
   #container {
